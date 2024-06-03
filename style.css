@@ -1,13 +1,43 @@
-div.parte-superiore {background-color:skyblue;
+body{
+    margin: 0;
+}
+.parte-superiore {background-color:skyblue;
     background-image:url(./img/logo.svg), url(./img/pattern.png);
     background-repeat: no-repeat, repeat;
     background-size: 300px, auto;
     background-position: bottom left 100px, top left;
     height: 230px;
+    border-left: 0;
 }
-header{
+.parte-inferiore{
     margin-left: 100px;
     margin-right: 100px;
 }
 
+h1{
+    font-size: 5em;
+    margin-bottom: 0;
+}
 
+
+.scritto{
+    padding-top: 0;
+    color: grey;
+    font-size: 2em;
+}
+
+.data{
+    font-size: 1em;
+}
+.azzurro{
+    color: skyblue;
+}
+
+.testo-piccolo{
+   font-size: 20px;
+   color: grey;
+}
+.descrizione{
+    font-size: 20px;
+    
+}

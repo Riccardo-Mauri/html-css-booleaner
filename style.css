@@ -1,4 +1,13 @@
-.header{background-image: url(./img/logo.svg);
-    width: 500px;
-
+div.parte-superiore {background-color:skyblue;
+    background-image:url(./img/logo.svg), url(./img/pattern.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 300px, auto;
+    background-position: bottom left 100px, top left;
+    height: 230px;
 }
+header{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+

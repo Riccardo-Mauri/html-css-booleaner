@@ -4,7 +4,7 @@ body{
 .parte-superiore {background-color:skyblue;
     background-image:url(./img/logo.svg), url(./img/pattern.png);
     background-repeat: no-repeat, repeat;
-    background-size: 300px, auto;
+    background-size: 300px, 500px;
     background-position: bottom left 100px, top left;
     height: 230px;
     border-left: 0;
@@ -41,3 +41,34 @@ h1{
     font-size: 20px;
     
 }
+#evidenziato{
+    background-color: yellow;
+}
+.table{
+    border-collapse: collapse;
+}
+.background-blue{
+    background-color: blue;
+}
+.background-lightblue{
+    background-color: lightblue;
+}
+.grandezza-colonna{
+    width: 50%;
+}
+.font{
+    text-align: left;
+    color: white;
+}
+.color-grey{
+    color: grey;
+}
+.related-article{
+    width: 300px;
+    height:200px;
+    padding:10px;
+    margin-bottom:20px;
+    background-image: url(./img/monitor.jpg);
+}
+
+
